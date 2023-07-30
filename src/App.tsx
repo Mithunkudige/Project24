@@ -15,7 +15,7 @@ export type RootStackParamList = {
     image: any;
     details: string;
     interiors: any[];
-};
+  };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
